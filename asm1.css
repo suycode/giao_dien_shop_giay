@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 35px;
+    background-color: blue;
+    padding-left: 40px;
+    margin-bottom: 15px;
+    padding-top: 8px;
+}
+
+nav > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+nav > ul > li{
+    font-size: 0.5;
+    list-style: none;
+    display: inline-block;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+header{
+    height: 110px;
+    background-color: #5271ff;
+    padding: 0 15px;
+}
+
+.link{
+    width: 145px;
+    position: relative;
+    left: 85%;
+    top: -80px;
+}
+
+.link a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.box{
+    width: 1225px;
+    margin: 0 auto;
+}
+
+.banner{
+    height: 410px;
+}
+
+.hot-pro{
+    height: 140px;
+    width: 1220px;
+    background-color: white;
+    margin: 15px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+    padding: 15px 100px;
+}
+
+.hot-pro > a{
+    width: 170px;
+    height: 110px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+}
+
+.hot-pro > a > p{
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+}
+
+.hot-pro > a > img{
+    width: 80px;
+    height: 80px;
+}
+
+article{
+    height: 470px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+    padding: 25px 32px;
+}
+
+article a{
+    width: 220px;
+    float: left;
+    margin: 0 6px;
+    text-decoration: none;
+}
+article a img{
+    width: 220px;
+    height: 220px;
+}
+
+.name-pro{
+    height: 200px;
+    color: black;
+    font-size: 15px;
+    word-spacing: 2px;
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding: 20px 10px;
+    line-height: 20px;
+}
+
+article a p img{
+    width: 30px;
+    height: 30px;
+}
+
+.price{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.price > del{
+    color: gray;
+}
+
+.price > b{
+    color: red;
+}
+
+footer{
+    padding: 25px 70px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.footer-gt, .footer-cs, .footer-sp{
+    width: 270px;
+    float: left;
+    margin-right: 20px;
+}
+
+footer h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.footer-gt > span, .footer-cs > span, .footer-sp > span{
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+}

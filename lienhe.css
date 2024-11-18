@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 110px;
+    background-color: #5271ff;
+    padding: 0 15px;
+}
+
+.link{
+    width: 145px;
+    position: relative;
+    left: 85%;
+    top: -80px;
+}
+
+.link a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    height: 35px;
+    background-color: blue;
+    padding-left: 40px;
+    margin-bottom: 15px;
+    padding-top: 8px;
+}
+
+nav > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+nav > ul > li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+h4{
+    margin-bottom: 20px;
+}
+
+.left-content{
+    float: left;
+    width: 300px;
+    margin-left: 200px;
+    margin-top: 100px;
+    line-height: 30px;
+}
+
+iframe{
+    position: relative;
+    left: 200px;
+}
+
+footer{
+    padding: 25px 70px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.footer-gt, .footer-cs, .footer-sp{
+    width: 270px;
+    float: left;
+    margin-right: 20px;
+}
+
+footer h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.footer-gt > span, .footer-cs > span, .footer-sp > span{
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+}

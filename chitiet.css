@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 35px;
+    background-color: blue;
+    padding-left: 40px;
+    margin-bottom: 15px;
+    padding-top: 8px;
+}
+
+nav > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+nav > ul > li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+header{
+    height: 110px;
+    background-color: #5271ff;
+    padding: 0 15px;
+}
+
+.link{
+    width: 145px;
+    position: relative;
+    left: 85%;
+    top: -80px;
+}
+
+.link a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.product{
+    display: block;
+    width: 1000px;
+    height: 500px;
+    padding-left: 100px;
+}
+
+.product > img{
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}
+
+.product > h3{
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.box-sale{
+    padding: 10px;
+    width: 400px;
+    height: 170px;
+    float: left;
+    border: 1px dashed blue;
+    border-radius: 10px;
+    line-height: 30px;
+}
+
+.checked{
+    width: 15px;
+    height: 15px;
+}
+
+.box-sale > div{
+    margin-top: 10px;
+    width: 400px;
+    float: left;
+    line-height: 30px;
+}
+
+.box-sale > img , .product > h3, .status, .price, .size, .quantity{
+    float: left;
+}
+
+.product > p{
+    margin-bottom: 20px;
+}
+
+.product > button{
+    width: 440px;
+    height: 40px;
+    background-color: #f14203;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    float: left;
+}
+
+.price{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    width: 400px;
+}
+
+.size{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.size-box{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.quantity > input{
+    width: 50px;
+}
+
+.price > del{
+    color: gray;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+footer{
+    padding: 25px 70px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.footer-gt, .footer-cs, .footer-sp{
+    width: 270px;
+    float: left;
+    margin-right: 20px;
+}
+
+footer h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.footer-gt > span, .footer-cs > span, .footer-sp > span{
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+}

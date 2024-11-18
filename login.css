@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+nav{
+    height: 35px;
+    background-color: blue;
+    padding-left: 40px;
+    margin-bottom: 15px;
+    padding-top: 8px;
+}
+
+nav > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+nav > ul > li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+header{
+    height: 110px;
+    background-color: #5271ff;
+    padding: 0 15px;
+}
+
+.link{
+    width: 145px;
+    position: relative;
+    left: 85%;
+    top: -80px;
+}
+
+.link a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+form{
+    width: 347px;
+    height: 406px;
+    text-align: center;
+    font-family: 'Lexend Deca';
+    margin: 0 auto;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 39px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 36px;
+}
+
+.iptext{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 12px 0 13px 18px;
+    border: 0;
+    background-color: #224957;
+    margin-bottom: 12px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+::placeholder{
+    color: white;
+}
+
+.remember{
+    width: 18px;
+    height: 17px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 7px;
+}
+
+label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    float: left;
+}
+
+form > div > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    float: right;
+}
+
+button{
+    width: 300px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #224957;
+    padding: 13px 128px 12px;
+    background-color: #20DF7F;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    margin-top: 24px;
+}
+
+footer{
+    padding: 25px 70px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.footer-gt, .footer-cs, .footer-sp{
+    width: 270px;
+    float: left;
+    margin-right: 20px;
+}
+
+footer h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.footer-gt > span, .footer-cs > span, .footer-sp > span{
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+}
